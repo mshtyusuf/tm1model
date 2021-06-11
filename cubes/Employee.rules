@@ -78,6 +78,7 @@ IF(DB('Employee',!Version,!Year,'Year_Enter','Local',!Region,!Department,!Employ
 ['Year','Enter Full Time Base Salary']>0,-1,CONTINUE);
 
 ### FOREIGN EXCHANGE RULES
+## Changes to do
 #------------Currency Conversion----------------------------------------------
 # Use the Attribute of the region to work out what the local currency is
 # Use the Currency dimension as "Currency To" in the FX cube
