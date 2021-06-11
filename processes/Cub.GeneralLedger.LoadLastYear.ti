@@ -1,0 +1,91 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+cCubeSource = 'General Ledger';
+cCubeTarget = 'General Ledger';
+
+cViewSource = 'zViewSource_' | GetProcessName();
+cViewTarget = 'zViewTarget_' | GetProcessName();
+
+# CREATE TARGET VIEW AND ZEROOUT
+
+cFilter = 'Version:Last Year';
+
+EXECUTEPROCESS('Bedrock.Cube.View.Create',
+  'pCube', cCubeTarget,
+  'pView', cViewTarget,
+  'pFilter', cFilter,
+  'pSuppressZero', 1,
+  'pSuppressConsol', 1,
+  'pSuppressRules', 1,
+  'pDimensionDelim', '&',
+  'pElementStartDelim', ':',
+  'pElementDelim', '+',
+  'pDebug', 0
+  );
+
+ViewZeroOut(cCubeTarget, cViewTarget);
+
+# CREATE VIEW SOURCE
+
+cFilter = 'Version:Actual';
+
+EXECUTEPROCESS('Bedrock.Cube.View.Create',
+  'pCube', cCubeSource,
+  'pView', cViewSource,
+  'pFilter', cFilter,
+  'pSuppressZero', 1,
+  'pSuppressConsol', 1,
+  'pSuppressRules', 0,
+  'pDimensionDelim', '&',
+  'pElementStartDelim', ':',
+  'pElementDelim', '+',
+  'pDebug', 0
+  );
+
+DataSourceType = 'VIEW';
+DataSourceNameForServer = cCubeSource;
+DatasourceCubeView = cViewSource;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+IF( vMeasure @<> 'Comment');
+
+CellPutN(vValue, 'General Ledger', 'Last Year', ATTRS('Year', vYear, 'Year+1'), vPeriod, vCurrency, vRegion, vDepartment, vAccount, vMeasure);
+
+ENDIF;
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+EXECUTEPROCESS('Bedrock.Cube.ViewAndSubsets.Delete',
+  'pCube', cCubeSource,
+  'pView', cViewSource,
+  'pSubset', cViewSource,
+  'pMode', 1,
+  'pDebug', 0
+  );
+  
+  
+EXECUTEPROCESS('Bedrock.Cube.ViewAndSubsets.Delete',
+  'pCube', cCubeTarget,
+  'pView', cViewTarget,
+  'pSubset', cViewTarget,
+  'pMode', 1,
+  'pDebug', 0
+  );
+#endregion

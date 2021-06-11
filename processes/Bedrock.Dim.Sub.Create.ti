@@ -1,0 +1,115 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+### Start Prolog ###
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will create a static subset
+
+# Note:
+# - This process uses a number of parameters to determine what to include in the subset:
+#   - pConsol      : If specified, only elements that are descendants of the consol will be included in the subset
+#                    If blank, then this filter will be ignored
+#   - pAttribute   : If specified, only elements that have a value equivalent to pAttributeValue will be included
+#                    in the subset. If blank, this filter will be ignored
+#   - pLevelFrom   : Only elements with a level greater than or equal to pLevelFrom will be included in the subset
+#   - pLevelTo     : Only elements with a level less than or equal to pLevelFrom will be included in the subset
+#   - pExclusions  : If pExclusions is specified then the elements (separated by a delimiter) will be excluded
+#                    from the subset
+#   - pAddToSubset : If the specified subset already exists then this parameter will control whether elements will
+#                    be added to the existing subset (value 1) or a new subset will be created (value 0)
+
+
+##Global Variables
+StringGlobalVariable('sProcessReturnCode');
+NumericGlobalVariable('nProcessReturnCode');
+nProcessReturnCode= 0;
+
+### Constants ###
+cThisProcName   = GetProcessName();
+cUserName       = TM1User();
+cMsgErrorContent= 'User:%cUserName% Process:%cThisProcName% ErrorMsg:%sMessage%';
+cTimeStamp      = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt      = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile      = GetProcessErrorFileDirectory | cThisProcName | '.' | cTimeStamp | '.' | sRandomInt ;
+cAttributeDim   = '}ElementAttributes_' | pDimension;
+
+### Initialise Debug ###
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDimension      : ' | pDimension );
+  AsciiOutput( sDebugFile, '            pSubset         : ' | pSubset );
+  AsciiOutput( sDebugFile, '            pConsol         : ' | pConsol );
+  AsciiOutput( sDebugFile, '            pAttribute      : ' | pAttribute );
+  AsciiOutput( sDebugFile, '            pAttributeValue : ' | pAttributeValue );
+  AsciiOutput( sDebugFile, '            pLevelFrom      : ' | NumberToString( pLevelFrom ) );
+  AsciiOutput( sDebugFile, '            pLevelTo        : ' | NumberToString( pLevelTo ) );
+  AsciiOutput( sDebugFile, '            pExclusions     : ' | pExclusions );
+  AsciiOutput( sDebugFile, '            pDelimiter      : ' | pDelimiter );
+  AsciiOutput( sDebugFile, '            pAddToSubset    : ' | NumberToString( pAddToSubset ) );
+  AsciiOutput( sDebugFile, '            pAlias      : ' | pAlias );
+EndIf;
+
+nRet = EXECUTEPROCESS('}bedrock.hier.sub.create',
+  'pLogOutput', pDebug,
+  'pDim', pDimension,
+  'pHier', '',
+  'pSub', pSubset,
+  'pConsol', pConsol,
+  'pAttr', pAttribute,
+  'pAttrValue', pAttributeValue,
+  'pLevelFrom', pLevelFrom,
+  'pLevelTo', pLevelTo,
+  'pExclusions', pExclusions,
+  'pDelim', pDelimiter,
+  'pAddToSubset', pAddToSubset,
+  'pAlias', pAlias,
+  'pTemp', 0
+  );
+
+IF(nRet <> 0);
+    sMessage = 'the process incurred at least 1 major error and consequently aborted. Please see above lines in this file for more details.';
+    nProcessReturnCode = 0;
+    LogOutput( 'ERROR', Expand( cMsgErrorContent ) );
+    sProcessReturnCode = Expand( '%sProcessReturnCode% Process:%cThisProcName% aborted. Check tm1server.log for details.' );
+    ProcessError;
+EndIf;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+#endregion

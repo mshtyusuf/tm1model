@@ -1,0 +1,52 @@
+{
+	"@type":"Hierarchy",
+	"Name":"System User Settings Parameter",
+	"Elements":
+	[
+		{
+			"Name":"homeAccount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"homeSubset",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"financeAccount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"financeSubset",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Account",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Measure",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Year",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Region",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Department",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Profile Image",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

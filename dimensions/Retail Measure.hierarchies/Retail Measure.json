@@ -1,0 +1,97 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Retail Measure",
+	"Elements":
+	[
+		{
+			"Name":"Order Quantity %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Amount %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Product Cost %",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Available",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Order Quantity",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Order Quantity % Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Unit Price",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Units",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Amount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Amount % Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tax Amount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Order Quantity % Category",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales Amount % Category",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Product Cost % Category",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Product Cost",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Product Standard Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Total Product Cost % Version",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Product Cost",
+			"ComponentName":"Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Product Cost",
+			"ComponentName":"Product Standard Cost",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Retail Measure.subsets/Default.json",
+		"Retail Measure.subsets/Level 0.json"
+	]
+}

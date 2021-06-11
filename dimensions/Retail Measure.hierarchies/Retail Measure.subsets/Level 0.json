@@ -1,0 +1,58 @@
+{
+	"@type":"Subset",
+	"Name":"Level 0",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Order Quantity %')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Amount %')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Total Product Cost %')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Available')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Order Quantity')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Order Quantity % Version')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Unit Price')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Units')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Amount')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Amount % Version')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Tax Amount')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Order Quantity % Category')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Amount % Category')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Total Product Cost % Category')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Freight')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Product Standard Cost')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Total Product Cost % Version')"
+		}
+	]
+}

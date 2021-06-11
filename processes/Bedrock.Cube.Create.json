@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Create",
+	"Code@Code.link":"Bedrock.Cube.Create.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCube",
+			"Prompt":"Cube Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDims",
+			"Prompt":"Dim1&Dim2&Dim3&Dim4&Dim5",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pRecreate",
+			"Prompt":"If cube exists delete and recreate (Default=0)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDimensionDelim",
+			"Prompt":"Delimiter for Dimension list",
+			"Value":"+",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug: 0",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

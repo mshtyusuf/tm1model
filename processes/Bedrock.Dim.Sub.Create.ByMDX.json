@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Sub.Create.ByMDX",
+	"Code@Code.link":"Bedrock.Dim.Sub.Create.ByMDX.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pMDXExpr",
+			"Prompt":"Valid MDX Expression for Specified Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pConvertToStatic",
+			"Prompt":"Bolean: 1 = True (convert to static subset)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

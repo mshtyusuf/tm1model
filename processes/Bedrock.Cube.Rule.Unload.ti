@@ -1,0 +1,93 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+################################################################################################# ####################
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+## This process will copy the rule rule file to a temporary file and load a blank rule file.
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Cube.Rule.Unload';
+cUser = TM1User();
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+cMsgErrorLevel = 'ERROR';
+cMsgErrorContent = '%cProcess% : %sMessage% : %cUser%';
+cMsgErrorShell = Expand('Executing process %cProcess% has failed.');
+
+
+### Initialise Debug ###
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters:    pSourceCube: ' | pSourceCube );
+  AsciiOutput( sDebugFile, '               pRuleName: ' | pRuleName );
+  AsciiOutput( sDebugFile, '' );
+
+EndIf;
+
+sProc = '}bedrock.cube.rule.manage';
+
+nRes = EXECUTEPROCESS( sProc,
+  'pLogOutput', pDebug,
+  'pCube', pSourceCube,
+  'pMode', 'UNLOAD',
+  'pFileName', pRuleName
+  );
+  
+
+
+IF ( nRes <> ProcessExitNormal() );
+  sMessage = cMsgErrorShell;
+  LogOutput( cMsgErrorLevel, Expand( cMsgErrorContent ) );
+  if ( pDebug >= 1 );
+    AsciiOutput( sDebugFile, Expand( cMsgErrorContent ) );
+    AsciiOutput( sDebugFile, Expand( 'Process exit code: %nRes%' ) );
+    AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  endif;
+  ProcessError();
+ENDIF;
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Epilog.debug';
+  # Log finish time
+  AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+EndIf;
+#endregion

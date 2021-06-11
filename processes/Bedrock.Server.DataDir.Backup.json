@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Server.DataDir.Backup",
+	"Code@Code.link":"Bedrock.Server.DataDir.Backup.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDataDir",
+			"Prompt":"Source Directory to Backup",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pBackupDir",
+			"Prompt":"Destination Directory for Backup",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

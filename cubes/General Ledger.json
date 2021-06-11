@@ -1,0 +1,47 @@
+{
+	"@type":"Cube",
+	"Name":"General Ledger",
+	"Rules@Code.link":"General Ledger.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		},
+		{
+			"@id":"Dimensions('Region')"
+		},
+		{
+			"@id":"Dimensions('Department')"
+		},
+		{
+			"@id":"Dimensions('Account')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"General Ledger.views/Budget Template.json",
+		"General Ledger.views/Default.json",
+		"General Ledger.views/Example.json",
+		"General Ledger.views/Example3.json",
+		"General Ledger.views/Example4.json",
+		"General Ledger.views/Example_2019.json",
+		"General Ledger.views/Java View.json",
+		"General Ledger.views/OP by Account.json",
+		"General Ledger.views/OP by Department.json",
+		"General Ledger.views/P&L.json",
+		"General Ledger.views/P&L Comment.json",
+		"General Ledger.views/Test.json"
+	]
+}

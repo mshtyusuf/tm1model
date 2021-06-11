@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"Level 0",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Comment')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Amount')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Amount Percentage')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Base Amount')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Factor')"
+		},
+		{
+			"@id":"Dimensions('General Ledger Measure')/Hierarchies('General Ledger Measure')/Elements('Phasing')"
+		}
+	]
+}

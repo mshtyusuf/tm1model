@@ -1,0 +1,67 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Data.ViewExportToFile",
+	"Code@Code.link":"Bedrock.Cube.Data.ViewExportToFile.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCube",
+			"Prompt":"Source Cube",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportPath",
+			"Prompt":"Export File Path (Defaults to Logging Directory if Left Blank)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportFile",
+			"Prompt":"If Blank Will Default to cube.view.export.csv",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pView",
+			"Prompt":"Source View (Blank = Whole Cube)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSkipRuleValues",
+			"Prompt":"Skip Rule Values? (Boolean 1=skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pSkipCalcValues",
+			"Prompt":"Skip Consol Values? (Boolean 1=skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pSkipNullValues",
+			"Prompt":"Skip Zero Values? (Boolean 1=skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pTitleRecord",
+			"Prompt":"Include Title Record in Export File? (Boolean 1=Yes)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

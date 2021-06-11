@@ -1,0 +1,19 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Security.Refresh",
+	"Code@Code.link":"Bedrock.Security.Refresh.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

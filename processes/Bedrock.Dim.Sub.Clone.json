@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Sub.Clone",
+	"Code@Code.link":"Bedrock.Dim.Sub.Clone.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Mandatory: Dimension where the subset exists",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetDim",
+			"Prompt":"Optional: Target dimension (blank = same as source)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceSub",
+			"Prompt":"Mandatory: Source Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetSub",
+			"Prompt":"Mandatory: Target Subset",
+			"Value":" ",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Optional: Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

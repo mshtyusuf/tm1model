@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"Other Expenses",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('8000')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('8010')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('8020')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('8030')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('8040')"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"Cub.GeneralLedger.Demo",
+	"Code@Code.link":"Cub.GeneralLedger.Demo.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

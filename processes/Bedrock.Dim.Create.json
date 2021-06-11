@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Create",
+	"Code@Code.link":"Bedrock.Dim.Create.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

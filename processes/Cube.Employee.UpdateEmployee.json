@@ -1,0 +1,37 @@
+{
+	"@type":"Process",
+	"Name":"Cube.Employee.UpdateEmployee",
+	"Code@Code.link":"Cube.Employee.UpdateEmployee.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pID",
+			"Prompt":"",
+			"Value":"767955365",
+			"Type":"String"
+		},
+		{
+			"Name":"pRegion",
+			"Prompt":"",
+			"Value":"poland",
+			"Type":"String"
+		},
+		{
+			"Name":"pDept",
+			"Prompt":"",
+			"Value":"sales and marketing",
+			"Type":"String"
+		},
+		{
+			"Name":"pYear",
+			"Prompt":"",
+			"Value":"2017",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

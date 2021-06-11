@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Data.Clear.All",
+	"Code@Code.link":"Bedrock.Cube.Data.Clear.All.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCube",
+			"Prompt":"Cube Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"Operating Profit",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('400')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4100')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('5000')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('5020')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('5050')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('60')"
+		}
+	]
+}

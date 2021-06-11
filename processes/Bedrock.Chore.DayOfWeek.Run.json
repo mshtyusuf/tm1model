@@ -1,0 +1,61 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Chore.DayOfWeek.Run",
+	"Code@Code.link":"Bedrock.Chore.DayOfWeek.Run.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSunday",
+			"Prompt":"(1) Run Chore on Sunday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pMonday",
+			"Prompt":"(1) Run Chore on Monday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pTuesday",
+			"Prompt":"(1) Run Chore on Tuesday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pWednesday",
+			"Prompt":"(1) Run Chore on Wednesday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pThursday",
+			"Prompt":"(1) Run Chore on Thursday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pFriday",
+			"Prompt":"(1) Run Chore on Friday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pSaturday",
+			"Prompt":"(1) Run Chore on Saturday",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

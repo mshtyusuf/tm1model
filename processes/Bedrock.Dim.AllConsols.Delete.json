@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.AllConsols.Delete",
+	"Code@Code.link":"Bedrock.Dim.AllConsols.Delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Target Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

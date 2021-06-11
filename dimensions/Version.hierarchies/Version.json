@@ -1,0 +1,102 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Version",
+	"Elements":
+	[
+		{
+			"Name":"vs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Quota",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Last Year",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Var %",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"LY %",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"[bad",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"bad]",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"[bad]",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{bad}",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{'Bad', \"Element\"!#%}",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{'Baddes', /\\ \"Element\"!#%}",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{['Bad', \"Element\"!#%]}",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"{['Baddes', /\\ \"Element\"!#%]}",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"vs",
+			"ComponentName":"1",
+			"Weight":1
+		},
+		{
+			"ParentName":"vs",
+			"ComponentName":"2",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Var %",
+			"ComponentName":"2",
+			"Weight":-1
+		},
+		{
+			"ParentName":"LY %",
+			"ComponentName":"1",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Version.subsets/All Versions.json",
+		"Version.subsets/Default.json",
+		"Version.subsets/EmployeeSource1.json",
+		"Version.subsets/zTempDim.Employee.UpdateAttr.FromEmployeeCube.json",
+		"Version.subsets/zTempDim.Employee.UpdateRegionAndDepartment.FromEmployeeCube.json"
+	]
+}

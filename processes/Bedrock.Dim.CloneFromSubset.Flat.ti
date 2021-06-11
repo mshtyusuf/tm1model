@@ -1,0 +1,88 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+
+### Constants ###
+cProcess = 'Bedrock.Dim.CloneFromSubset.Flat' ;
+cUser = TM1User();
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.';
+cUser = TM1User;
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cSubset =  '}Bedrock_' | sRandomInt;
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  AsciiOutput( sDebugFile, 'TM1 User:        ' | cUser );
+  AsciiOutput( sDebugFile, '' );
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pSourceDim : ' | pSourceDim );
+  AsciiOutput( sDebugFile, '            pSourceSub : ' | pSubset );
+  AsciiOutput( sDebugFile, '            pTargetDim : ' | pTargetDim );
+  AsciiOutput( sDebugFile, '            pAttr      : ' | NumberToString( pAttr ) );
+  AsciiOutput( sDebugFile, '' );
+
+EndIf;
+
+
+EXECUTEPROCESS('}bedrock.hier.create.fromsubset',
+  'pSrcDim', pSourceDim,
+  'pSrcHier', '',
+  'pSubset', pSubset,
+  'pTgtDim', pTargetDim,
+  'pTgtHier', '',
+  'pAttr', pAttr,
+  'pUnwind', 0,
+  'pFlat', 1
+  );
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Copyright bedrocktm1.org 2011 www.bedrocktm1.org/how-to-licence.php Ver 3.0.0~~##
+################################################################################################# 
+
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+######################################
+##~~  Copyright Cubewise P/L 2010 ~~##
+######################################
+
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#####################################
+##~~ Copyright Cubewise P/L 2010 ~~##
+#####################################
+
+
+#endregion

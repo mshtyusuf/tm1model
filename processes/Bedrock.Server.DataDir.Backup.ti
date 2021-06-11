@@ -1,0 +1,99 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+### Constants ###
+
+cProcess = 'Bedrock.Server.DataDir.Backup';
+cUser = TM1User();
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+cMsgErrorLevel = 'ERROR';
+cMsgErrorContent = '%cProcess% : %sMessage% : %cUser%';
+cMsgErrorShell = Expand('Executing process %cProcess% has failed.');
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  AsciiOutput( sDebugFile, 'TM1 User:        ' | cUser );
+  AsciiOutput( sDebugFile, '' );
+  # Output parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDataDir:    ' | pDataDir );
+  AsciiOutput( sDebugFile, '            pBackupDir:  ' | pBackupDir );
+  AsciiOutput( sDebugFile, '' );
+EndIf;
+
+
+sProc = '}bedrock.server.dir.backup';
+
+nRes = EXECUTEPROCESS( sProc,
+  'pLogOutput', pDebug,
+  'pSrcDir', pDataDir,
+  'pTgtDir', pBackupDir
+  );
+  
+
+
+IF ( nRes <> ProcessExitNormal() );
+  sMessage = cMsgErrorShell;
+  LogOutput( cMsgErrorLevel, Expand( cMsgErrorContent ) );
+  if ( pDebug >= 1 );
+    AsciiOutput( sDebugFile, Expand( cMsgErrorContent ) );
+    AsciiOutput( sDebugFile, Expand( 'Process exit code: %nRes%' ) );
+    AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  endif;
+  ProcessError();
+ENDIF;
+
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Epilog.debug';
+  # Log finish time
+  AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+EndIf;
+
+
+
+### End Epilog ###
+#endregion

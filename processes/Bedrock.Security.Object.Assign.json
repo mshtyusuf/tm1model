@@ -1,0 +1,55 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Security.Object.Assign",
+	"Code@Code.link":"Bedrock.Security.Object.Assign.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pGroups",
+			"Prompt":"List of Groups Separated by Delimiter",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pObjectType",
+			"Prompt":"Type of Object to Assign Security To (Application/Cube/Dimension/Process/Chore)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pObjects",
+			"Prompt":"List of Objects Separated by Delimiter",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSecurityLevel",
+			"Prompt":"Security Level (Read/Write/Admin/None)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSecurityRefresh",
+			"Prompt":"Refresh Security? (Default = No)",
+			"Value":"No",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

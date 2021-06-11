@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Element.Component.Add",
+	"Code@Code.link":"Bedrock.Dim.Element.Component.Add.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pParent",
+			"Prompt":"Parent Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pElement",
+			"Prompt":"Element Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pWeight",
+			"Prompt":"Component Weight",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

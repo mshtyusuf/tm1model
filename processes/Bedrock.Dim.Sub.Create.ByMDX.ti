@@ -1,0 +1,81 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will Create a dynamic subset from an MDX expression
+# that evaluates to a non-empty set in the specified dimension.
+# If the MDX does not compile or produces an empty set the process will error.
+# If convert to static is true then the MDX subset will be replaced by a static subset.
+
+### Constants ###
+
+cProcess = 'Bedrock.Dim.Sub.Create.ByMDX';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+cTempSubset = cProcess | '.' | sRandomInt;
+cTempFile = GetProcessErrorFileDirectory | cTempSubset | '.csv';
+
+sMDXExpr = pMDXExpr;
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDimension       : ' | pDimension );
+  AsciiOutput( sDebugFile, '            pSubset          : ' | pSubset );
+  AsciiOutput( sDebugFile, '            pMDXExpr         : ' | pMDXExpr );
+  AsciiOutput( sDebugFile, '            pConvertToStatic : ' | NumberToString( pConvertToStatic ) );
+
+EndIf;
+
+EXECUTEPROCESS('}bedrock.hier.sub.create.bymdx',
+  'pLogOutput', pDebug,
+  'pDim', pDimension,
+  'pHier', '',
+  'pSub', pSubset,
+  'pMDXExpr', pMDXExpr,
+  'pConvertToStatic', pConvertToStatic,
+  'pTemp', 0
+  );
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+
+### End Epilog ###
+#endregion

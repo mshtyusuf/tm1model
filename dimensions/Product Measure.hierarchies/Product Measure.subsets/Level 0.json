@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Level 0",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Product Measure')/Hierarchies('Product Measure')/Elements('Standard Cost')"
+		},
+		{
+			"@id":"Dimensions('Product Measure')/Hierarchies('Product Measure')/Elements('List Price')"
+		}
+	]
+}

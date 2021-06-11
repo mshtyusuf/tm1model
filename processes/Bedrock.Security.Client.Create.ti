@@ -1,0 +1,65 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will create clients, assign a password and max ports
+
+# Notes:
+# - Multiple clients can be specified separated by a delimiter
+# - If client already exists then the process will not attempt to re-create it but will reset password and max ports
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Security.Client.Create';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pClients: ' | pClients );
+  AsciiOutput( sDebugFile, '            pPassword: ' | pPassword );
+  AsciiOutput( sDebugFile, '            pMaxPorts: ' | NumberToString( pMaxPorts ) );
+  AsciiOutput( sDebugFile, '            pDelimiter: ' | pDelimiter );
+
+EndIf;
+
+EXECUTEPROCESS('}bedrock.security.client.create',
+  'pLogOutPut', pDebug,
+  'pClient', pClients,
+  'pPassword', pPassword,
+  'pDelim', pDelimiter
+);
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

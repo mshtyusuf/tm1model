@@ -1,0 +1,89 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+# This process will list all files and processes in the data directory
+# as text file output in the data directory itself
+# In some cases the path to the batch file (in the data directory) must be fully qualified
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+### Constants ###
+
+cProcess = 'Bedrock.Server.DataDir.ListContents';
+cUser = TM1User();
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+cBatchFile = cProcess | '.bat';
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  AsciiOutput( sDebugFile, 'TM1 User:        ' | cUser );
+  AsciiOutput( sDebugFile, '' );
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDataDir: ' | pDataDir );
+  AsciiOutput( sDebugFile, '' );
+EndIf;
+
+
+### Build Command ###
+nErrors = 0;
+
+
+EXECUTEPROCESS('}bedrock.server.dir.listcontents',
+  'pLogOutput', pDebug,
+  'pSrcDir', pDataDir
+  );
+
+
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Epilog.debug';
+
+  # Log finish time
+  AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+EndIf;
+
+
+
+### End Epilog ###
+#endregion

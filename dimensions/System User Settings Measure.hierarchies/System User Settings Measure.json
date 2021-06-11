@@ -1,0 +1,23 @@
+{
+	"@type":"Hierarchy",
+	"Name":"System User Settings Measure",
+	"Elements":
+	[
+		{
+			"Name":"String",
+			"Type":"String"
+		},
+		{
+			"Name":"Numeric",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Comment",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"System User Settings Measure.subsets/Level 0.json"
+	]
+}

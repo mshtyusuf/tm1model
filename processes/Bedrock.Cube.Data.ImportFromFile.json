@@ -1,0 +1,79 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Data.ImportFromFile",
+	"Code@Code.link":"Bedrock.Cube.Data.ImportFromFile.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceDir",
+			"Prompt":"Source Directory",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceFile",
+			"Prompt":"Source File",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pCube",
+			"Prompt":"Target Cube",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension (Optional)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceElement",
+			"Prompt":"Source Element ( Only required if a Dimensoin is used.)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetElement",
+			"Prompt":"Target Element (Only required if Dimension is used.)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTitleRows",
+			"Prompt":"Number of Title Rows to Skip",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter Character (default=Comma)",
+			"Value":",",
+			"Type":"String"
+		},
+		{
+			"Name":"pQuote",
+			"Prompt":"Quote Character (default=Double Quote)",
+			"Value":"\"",
+			"Type":"String"
+		},
+		{
+			"Name":"pCumulate",
+			"Prompt":"Accumulate Amounts",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

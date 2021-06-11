@@ -1,0 +1,49 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.CloneFromSubset",
+	"Code@Code.link":"Bedrock.Dim.CloneFromSubset.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceDim",
+			"Prompt":"Source Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"Source Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetDim",
+			"Prompt":"Target Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttr",
+			"Prompt":"Include Attributes? (Boolean 1=True)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pUnwind",
+			"Prompt":"0 = Delete all Elements, 1 = Unwind Existing Elements, 2 = Do not change Existing Elements",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Email.BurstReports",
+	"Code@Code.link":"Email.BurstReports.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pYear",
+			"Prompt":"Year",
+			"Value":"2012",
+			"Type":"String"
+		},
+		{
+			"Name":"pMonth",
+			"Prompt":"Month",
+			"Value":"Sep",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

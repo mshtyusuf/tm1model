@@ -1,0 +1,70 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+# This process will delete client groups
+
+# Notes:
+# - Multiple groups can be specified separated by a delimiter
+# - If group does not exist then it will be skipped.
+# - If multiple groups are specified and some don't exist and some do, then the ones that do exist will still be deleted
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Security.Group.Delete';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pGroups: ' | pGroups );
+  AsciiOutput( sDebugFile, '            pDelimiter: ' | pDelimiter );
+
+EndIf;
+
+
+
+EXECUTEPROCESS('}bedrock.security.group.delete',
+  'pLogOutput', pDebug,
+  'pGroup', pGroups,
+  'pDelim', pDelimiter
+  );
+  
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#endregion

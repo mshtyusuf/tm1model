@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"Gross Margin",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4100')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4110')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4130')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4140')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('5000')"
+		}
+	]
+}

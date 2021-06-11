@@ -1,0 +1,55 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Clone",
+	"Code@Code.link":"Bedrock.Cube.Clone.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceCube",
+			"Prompt":"Source Cube",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetCube",
+			"Prompt":"Target Cube to create/re-create",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pIncludeRules",
+			"Prompt":"Include cube rules? (Boolean Yes = 1)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pIncludeData",
+			"Prompt":"Include cube data? (Boolean Yes = 1)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pSourceView",
+			"Prompt":"Source View (blank = whole cube If pIncludeData=1)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pRuleValues",
+			"Prompt":"Skip rule values? (1=skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

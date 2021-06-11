@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Attr.Delete",
+	"Code@Code.link":"Bedrock.Dim.Attr.Delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttribute",
+			"Prompt":"Attribute Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

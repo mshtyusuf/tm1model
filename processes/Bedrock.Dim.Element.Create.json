@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Element.Create",
+	"Code@Code.link":"Bedrock.Dim.Element.Create.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Mandatory: Dimension Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pElement",
+			"Prompt":"Mandatory: Element Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pElementType",
+			"Prompt":"Optional: Element Type N S C (default value N)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pInsertionPoint",
+			"Prompt":"Optional: Insertion point (default value blank)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Optional: Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

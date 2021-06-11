@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"System User Settings",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Clients')"
+		},
+		{
+			"@id":"Dimensions('System User Settings Parameter')"
+		},
+		{
+			"@id":"Dimensions('System User Settings Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"System User Settings.views/Default.json"
+	]
+}

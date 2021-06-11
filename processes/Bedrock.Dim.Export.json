@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Export",
+	"Code@Code.link":"Bedrock.Dim.Export.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Required: Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportPath",
+			"Prompt":"Optional: Target Directory Path (defaults to Error File Directory)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportFile",
+			"Prompt":"Optional: Target File Name (defaults to Dimension_Export.csv if blank)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTitleRecord",
+			"Prompt":"Boolean 1 = Yes - Include header row",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

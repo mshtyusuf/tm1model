@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Chore.DayInMonth.Run",
+	"Code@Code.link":"Bedrock.Chore.DayInMonth.Run.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDays",
+			"Prompt":"Delimited string of days in month as dd e.g. 1 & 2 & 30 & 31",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Optional: String array delimiter. Only 1 character allowed (Blank=&)",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

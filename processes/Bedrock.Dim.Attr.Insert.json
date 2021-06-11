@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Attr.Insert",
+	"Code@Code.link":"Bedrock.Dim.Attr.Insert.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pPrevAttr",
+			"Prompt":"Previous Attribute",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttribute",
+			"Prompt":"Attribute Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttributeType",
+			"Prompt":"Attribute Type",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

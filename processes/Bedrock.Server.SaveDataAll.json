@@ -1,0 +1,19 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Server.SaveDataAll",
+	"Code@Code.link":"Bedrock.Server.SaveDataAll.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

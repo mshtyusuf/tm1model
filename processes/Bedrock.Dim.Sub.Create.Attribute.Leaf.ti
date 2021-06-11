@@ -1,0 +1,43 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+EXECUTEPROCESS('}bedrock.hier.sub.create.attribute.leaf',
+  'pDim', pDimension,
+  'pHier', '',
+  'pSub', pSubset,
+  'pAttr', pAttribute,
+  'pAttrValue', pAttributeValue,
+  'pAddToSubset', pAddToSubset,
+  'pExclusions', pExclusions,
+  'pDelim', pDelimiter,
+  'pAlias', pAlias,
+  'pTemp', 0
+  );
+
+
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

@@ -1,0 +1,103 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Data.Export",
+	"Code@Code.link":"Bedrock.Cube.Data.Export.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCube",
+			"Prompt":"Cube",
+			"Value":"Employee",
+			"Type":"String"
+		},
+		{
+			"Name":"pView",
+			"Prompt":"Temporary view name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pFilter",
+			"Prompt":"Filter: Year: 2006 + 2007 & Scenario: Actual + Budget & Organization: North America Operations",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDimensionDelim",
+			"Prompt":"Delimiter between dimensions",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pElementStartDelim",
+			"Prompt":"Delimiter for start of element list",
+			"Value":":",
+			"Type":"String"
+		},
+		{
+			"Name":"pElementDelim",
+			"Prompt":"Delimiter between elements",
+			"Value":"+",
+			"Type":"String"
+		},
+		{
+			"Name":"pSkipRules",
+			"Prompt":"Skip Rule Values? (1=Skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pSkipCons",
+			"Prompt":"Skip Consolidted Values? (1=Skip)",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pZeroSource",
+			"Prompt":"Zero Out view AFTER Copy? (Boolean 1=True)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDestroyTempObj",
+			"Prompt":"Retain temporary view and Subset ( 0 = Retain View and Subsets 1 = Delete View and Subsets )",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pFilePath",
+			"Prompt":"Export Directory (will default to log file path)",
+			"Value":"C:\\TM1SRV\\canvas_sample_light\\Export",
+			"Type":"String"
+		},
+		{
+			"Name":"pFileName",
+			"Prompt":"Export Filename (If Left Blank Defaults to cube_dim_ele_export.csv)",
+			"Value":"EMP",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"AsciiOutput delimiter character",
+			"Value":",",
+			"Type":"String"
+		},
+		{
+			"Name":"pQuote",
+			"Prompt":"AsciiOutput quote character",
+			"Value":"\"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

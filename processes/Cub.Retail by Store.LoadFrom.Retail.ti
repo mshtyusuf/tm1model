@@ -1,0 +1,95 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+cCubeSource = 'Retail';
+cCubeTarget = 'Retail by Store';
+
+cViewSource = 'zViewSource_' | GetProcessName();
+cViewTarget = 'zViewTarget_' | GetProcessName();
+
+cStore = 'Store_Entry' ;
+
+cMeasureDim = 'Retail Measure';
+sMeasure1 = 'Sales Amount';
+sMeasure2 = 'Freight';
+sMeasure3 = 'Product Standard Cost';
+
+# CREATE TARGET VIEW AND ZEROOUT
+
+cFilter = 'Store:Store_Entry';
+
+EXECUTEPROCESS('Bedrock.Cube.View.Create',
+  'pCube', cCubeTarget,
+  'pView', cViewTarget,
+  'pFilter', cFilter,
+  'pSuppressZero', 1,
+  'pSuppressConsol', 1,
+  'pSuppressRules', 1,
+  'pDimensionDelim', '&',
+  'pElementStartDelim', ':',
+  'pElementDelim', '+',
+  'pDebug', 0
+  );
+
+ViewZeroOut(cCubeTarget, cViewTarget);
+
+# CREATE VIEW SOURCE
+
+cFilter = 'Retail Measure:Sales Amount+Freight+Product Standard Cost';
+
+EXECUTEPROCESS('Bedrock.Cube.View.Create',
+  'pCube', cCubeSource,
+  'pView', cViewSource,
+  'pFilter', cFilter,
+  'pSuppressZero', 1,
+  'pSuppressConsol', 1,
+  'pSuppressRules', 1,
+  'pDimensionDelim', '&',
+  'pElementStartDelim', ':',
+  'pElementDelim', '+',
+  'pDebug', 0
+  );
+
+DataSourceType = 'VIEW';
+DataSourceNameForServer = cCubeSource;
+DatasourceCubeView = cViewSource;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#ItemReject(vVersion|vYear|vPeriod|vCurrency|vRegion|vProduct|'Store_Entry'|vRetailMeasure);
+#ProcessBreak;
+CellPutN(vValue, 'Retail by Store', vVersion, vYear, vPeriod, vCurrency, vRegion, vProduct, 'Store_Entry', vRetailMeasure);
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+EXECUTEPROCESS('Bedrock.Cube.ViewAndSubsets.Delete',
+  'pCube', cCubeSource,
+  'pView', cViewSource,
+  'pSubset', cViewSource,
+  'pMode', 1,
+  'pDebug', 0
+  );
+  
+  
+EXECUTEPROCESS('Bedrock.Cube.ViewAndSubsets.Delete',
+  'pCube', cCubeTarget,
+  'pView', cViewTarget,
+  'pSubset', cViewTarget,
+  'pMode', 1,
+  'pDebug', 0
+  );
+#endregion

@@ -1,0 +1,76 @@
+{
+	"@type":"Hierarchy",
+	"Name":"General Ledger Measure",
+	"Elements":
+	[
+		{
+			"Name":"Comment",
+			"Type":"String"
+		},
+		{
+			"Name":"Planning Measures",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Amount M",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Amount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Amount Percentage",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Base Amount",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Factor",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Phasing",
+			"Type":"Numeric"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Planning Measures",
+			"ComponentName":"Amount M",
+			"Weight":1
+		},
+		{
+			"ParentName":"Planning Measures",
+			"ComponentName":"Amount Percentage",
+			"Weight":1
+		},
+		{
+			"ParentName":"Planning Measures",
+			"ComponentName":"Base Amount",
+			"Weight":1
+		},
+		{
+			"ParentName":"Planning Measures",
+			"ComponentName":"Factor",
+			"Weight":1
+		},
+		{
+			"ParentName":"Planning Measures",
+			"ComponentName":"Phasing",
+			"Weight":1
+		},
+		{
+			"ParentName":"Amount M",
+			"ComponentName":"Amount",
+			"Weight":9.99999999999999955e-07
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"General Ledger Measure.subsets/Level 0.json"
+	]
+}

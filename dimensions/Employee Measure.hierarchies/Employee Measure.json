@@ -1,0 +1,115 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Employee Measure",
+	"Elements":
+	[
+		{
+			"Name":"Enter Full Time Base Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pay Method",
+			"Type":"String"
+		},
+		{
+			"Name":"Full Time Base Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Time Base Salary % Version",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Time Base Salary % Department",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Full Time Base Salary % Region",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"FTE",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Start Date",
+			"Type":"String"
+		},
+		{
+			"Name":"End Date",
+			"Type":"String"
+		},
+		{
+			"Name":"Total Salary Costs",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Base Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oncosts",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Annual Leave Provision",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Long Service Leave Provision",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Superannuation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Worker Compensation",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Empty",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Salary Costs",
+			"ComponentName":"Base Salary",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Salary Costs",
+			"ComponentName":"Oncosts",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oncosts",
+			"ComponentName":"Annual Leave Provision",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oncosts",
+			"ComponentName":"Long Service Leave Provision",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oncosts",
+			"ComponentName":"Superannuation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oncosts",
+			"ComponentName":"Worker Compensation",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Employee Measure.subsets/Default.json",
+		"Employee Measure.subsets/Level 0.json",
+		"Employee Measure.subsets/zTempDim.Employee.UpdateAttr.FromEmployeeCube.json",
+		"Employee Measure.subsets/zTempDim.Employee.UpdateRegionAndDepartment.FromEmployeeCube.json"
+	]
+}

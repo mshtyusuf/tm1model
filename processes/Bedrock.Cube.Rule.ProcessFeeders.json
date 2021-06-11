@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Rule.ProcessFeeders",
+	"Code@Code.link":"Bedrock.Cube.Rule.ProcessFeeders.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceCube",
+			"Prompt":"Process feeders for this cube.",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

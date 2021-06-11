@@ -1,0 +1,19 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Server.DeleteAllPersistentFeeders",
+	"Code@Code.link":"Bedrock.Server.DeleteAllPersistentFeeders.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

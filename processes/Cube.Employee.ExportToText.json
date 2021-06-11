@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"Cube.Employee.ExportToText",
+	"Code@Code.link":"Cube.Employee.ExportToText.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

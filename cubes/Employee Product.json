@@ -1,0 +1,37 @@
+{
+	"@type":"Cube",
+	"Name":"Employee Product",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Product')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		},
+		{
+			"@id":"Dimensions('Region')"
+		},
+		{
+			"@id":"Dimensions('Department')"
+		},
+		{
+			"@id":"Dimensions('Employee')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Employee Product.views/CopyTo.json",
+		"Employee Product.views/Default.json",
+		"Employee Product.views/Example.json"
+	]
+}

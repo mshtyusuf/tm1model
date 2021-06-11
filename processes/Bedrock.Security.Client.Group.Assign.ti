@@ -1,0 +1,82 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will assign Client and Group Security
+
+# Notes:
+# - This process can either add or remove clients to groups based on pAddOrRemove
+# - This process can work on a single client or multiple clients separated by a delimiter
+# - This process can work on a single group or multiple groups separated by a delimiter
+# - Therefore, it can be used to:
+#   - Add/remove a single client to/from a single group
+#   - Add/remove many clients to/from a single group
+#   - Add/remove a single client to/from many groups
+#   - Add/remove many clients to/from many groups
+# - The caller can choose whether or not to refresh security at the end. Default is yes
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Security.Client.Group.Assign';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pClients         : ' | pClients );
+  AsciiOutput( sDebugFile, '            pGroups          : ' | pGroups );
+  AsciiOutput( sDebugFile, '            pAddOrRemove     : ' | pAddOrRemove );
+  AsciiOutput( sDebugFile, '            pSecurityRefresh : ' | pSecurityRefresh );
+  AsciiOutput( sDebugFile, '            pDelimiter       : ' | pDelimiter );
+
+EndIf;
+
+EXECUTEPROCESS('}bedrock.security.client.group.assign',
+  'pLogOutput', pDebug,
+  'pClient', pClients,
+  'pGroup', pGroups,
+  'pDelim', pDelimiter,
+  'pAddOrRemove', pAddOrRemove,
+  'pSecurityRefresh', pSecurityRefresh
+  );
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+#endregion

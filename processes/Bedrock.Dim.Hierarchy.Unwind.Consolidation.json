@@ -1,0 +1,37 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Hierarchy.Unwind.Consolidation",
+	"Code@Code.link":"Bedrock.Dim.Hierarchy.Unwind.Consolidation.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Target Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pConsol",
+			"Prompt":"Target Consolidation",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pRecursive",
+			"Prompt":"Boolean: 1 = True (break from node down not just direct children)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

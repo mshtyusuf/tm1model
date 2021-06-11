@@ -1,0 +1,114 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+DatasourceNameForServer = 'EmployeeData.csv';
+DatasourceNameForClient = 'EmployeeData.csv';
+
+
+## This process loads base salaries to the Employee Cube ##
+
+cCube = 'Employee';
+cVersion = pVersion;
+cYear = pYear;
+#sDepartment = '0';
+cCurrency = 'Local';
+
+#cViewName =  '}ClearCube';
+#ViewCreate(cCube, cViewName);
+#ViewZeroOut(cCube, cViewName);
+#ViewDestroy(cCube, cViewName);
+
+ExecuteProcess('Bedrock.Cube.View.Create'
+  , 'pCube', 'Employee'
+  , 'pView', 'tempView123'
+  , 'pFilter', 'Version:' | cVersion | ' & Year:' | cYear | '&Employee Measure:Enter Full Time Base Salary+Pay Method+Full Time Base Salary'
+  , 'pSuppressZero', 1
+  , 'pSuppressConsol', 1
+  , 'pSuppressRules', 1
+  , 'pDimensionDelim', '&'
+  , 'pElementStartDelim', ':'
+  , 'pElementDelim', '+'
+  , 'pDebug', 0
+);
+
+ViewZeroOut('Employee','tempView123');
+ViewDestroy('Employee','tempView123');
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+vDepartmentName=ATTRS('Employee',vEmployeeKey,'Department Name');
+
+
+sEmployeeKey = vEmployeeKey;
+
+# Remove dot from end of product
+sString = sEmployeeKey;
+nLength = LONG(sString);
+sLastCharacter = SUBST(sString, nLength, 1);
+If(sLastCharacter @= '.');
+  sString = SUBST(sString, 1, nLength - 1);
+EndIf;
+sEmployeeKey = sString;
+
+
+#IF(pVersion@<>'Actual');
+   nPercent=RAND/10;
+   vBaseRate=vBaseRate*nPercent+vBaseRate;
+#ENDIF;
+
+nSalary = vBaseRate * 160 * pM;
+
+#Employee Cube
+#Version
+#Year
+#Period
+#Currency
+#Region
+#Department
+#Employee
+#Employee Measure
+
+# department is a random whole number between 2 and 7
+#sDepartment = Numbertostring(INT(RAND * 6) + 2);
+
+IF(pVersion@<>'Actual');
+   CellPutN(nSalary*12, cCube, cVersion, cYear, 'Year_Enter', cCurrency, vSalesTerritoryKey, vDepartmentName, sEmployeeKey, 'Enter Full Time Base Salary');
+   CellPutS('Monthly', cCube, cVersion, cYear,  'Year_Enter', cCurrency, vSalesTerritoryKey,vDepartmentName , sEmployeeKey, 'Pay Method');
+ENDIF;
+
+nMonth = 1;
+WHILE(nMonth <=12);
+  sMonth = NumberToString(nMonth);
+  IF(CellIsUpdateable(cCube, cVersion, cYear, sMonth, cCurrency,vSalesTerritoryKey,vDepartmentName, sEmployeeKey, 'Enter Full Time Base Salary') = 1 );
+   #CellPutN(1, cCube, cVersion, cYear, sMonth, cCurrency, vSalesTerritoryKey, vDepartmentName, sEmployeeKey, 'FTE');
+   CellPutS('Monthly', cCube, cVersion,cYear,  'Year_Enter', cCurrency, vSalesTerritoryKey,vDepartmentName , sEmployeeKey, 'Pay Method');
+   IF(pVersion@='Actual');
+       CellPutN(nSalary, cCube, cVersion, cYear, sMonth, cCurrency, vSalesTerritoryKey,vDepartmentName , sEmployeeKey, 'Enter Full Time Base Salary');
+       CellPutS('Monthly', cCube, cVersion, cYear, 'Year_enter', cCurrency, vSalesTerritoryKey,vDepartmentName , sEmployeeKey, 'Pay Method');
+   ENDIF;
+    #TEXTOUTPUT('Test.csv', NumberToString(nSalary), cCube, cVersion, cYear, sMonth, cCurrency, sRegion, vDepartmentName, sEmployeeKey, 'Enter Full Time Base Salary');
+  EndIf;
+  nMonth = nMonth +1;
+END;
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#endregion

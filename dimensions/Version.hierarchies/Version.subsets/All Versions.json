@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"All Versions",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('1')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('2')"
+		},
+		{
+			"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Last Year')"
+		}
+	]
+}

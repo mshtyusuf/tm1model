@@ -1,0 +1,128 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+##Global Variables
+StringGlobalVariable('sProcessReturnCode');
+NumericGlobalVariable('nProcessReturnCode');
+nProcessReturnCode= 0;
+
+### Constants ###
+cThisProcName     = GetProcessName();
+cUserName         = TM1User();
+cMsgErrorContent  = 'User:%cUserName% Process:%cThisProcName% ErrorMsg:%sMessage%';
+cTimeStamp        = TimSt( Now, '\Y\m\d\h\i\s' );
+cRandomInt        = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile        = GetProcessErrorFileDirectory | cThisProcName | '.' | cTimeStamp | '.' | cRandomInt ;
+cMsgErrorShell    = Expand('Executing process %cThisProcName% has failed.');
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  AsciiOutput( sDebugFile, 'TM1 User:        ' | cUserName );
+  AsciiOutput( sDebugFile, '' );
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pCube:              ' | pCube );
+  AsciiOutput( sDebugFile, '            pView:              ' | pView );
+  AsciiOutput( sDebugFile, '            pFilter:            ' | pFilter );
+  AsciiOutput( sDebugFile, '            pDimensionDelim:    ' | pDimensionDelim );
+  AsciiOutput( sDebugFile, '            pElementStartDelim: ' | pElementStartDelim );
+  AsciiOutput( sDebugFile, '            pElementDelim:      ' | pElementDelim );
+  AsciiOutput( sDebugFile, '            pSkipCons:          ' | NumberToString( pSkipCons ) );
+  AsciiOutput( sDebugFile, '            pSkipRules:         ' | NumberToString( pSkipRules ) );
+  AsciiOutput( sDebugFile, '            pZeroSource:        ' | NumberToString( pZeroSource ) );
+  AsciiOutput( sDebugFile, '            pDestroyTempObj:    ' | NumberToString( pDestroyTempObj ) );
+  AsciiOutput( sDebugFile, '            pFilePath:          ' | pFilePath );
+  AsciiOutput( sDebugFile, '            pFileName:          ' | pFileName );
+  AsciiOutput( sDebugFile, '            pDelimiter:         ' | pDelimiter );
+  AsciiOutput( sDebugFile, '            pQuote:             ' | pQuote );
+  AsciiOutput( sDebugFile, '' );
+  AsciiOutput( sDebugFile, '' );
+EndIf;
+
+### Getting cube logging parameter
+sCubeLogging = CellGetS('}CubeProperties', pCube, 'LOGGING' );
+nCubeLogging = IF(sCubeLogging@='YES',1,0);
+pView='test';
+sProc = '}bedrock.cube.data.export';
+nRet = ExecuteProcess( sProc,
+  'pLogOutput', 0,
+  'pCube', pCube,
+  'pView', pView,
+  'pFilter', pFilter,
+  'pDimDelim', pDimensionDelim,
+  'pEleStartDelim', pElementStartDelim,
+  'pEleDelim', pElementDelim,
+  'pSuppressZero', 1,
+  'pSuppressConsol', pSkipCons,
+  'pSuppressRules', pSkipRules,
+  'pZeroSource', pZeroSource,
+  'pCubeLogging', nCubeLogging,
+  'pTemp', pDestroyTempObj,
+  'pFilePath', pFilePath,
+  'pFileName', pFileName,
+  'pDelim', pDelimiter,
+  'pQuote', pQuote,
+  'pTitleRecord', 1
+);
+
+IF ( nRet <> ProcessExitNormal() );
+    sMessage = 'the process incurred at least 1 major error and consequently aborted. Please see above lines in this file for more details.';
+    nProcessReturnCode = 0;
+    LogOutput( 'ERROR', Expand( cMsgErrorContent ) );
+    sProcessReturnCode = Expand( '%sProcessReturnCode% Process:%cThisProcName% aborted. Check tm1server.log for details.' );
+    If ( pDebug >= 1 );
+        AsciiOutput( sDebugFile, Expand( cMsgErrorContent ) );
+        AsciiOutput( sDebugFile, Expand( 'Process exit code: %nRes%' ) );
+        AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+    Endif;
+  ProcessError();
+ENDIF;
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Epilog.debug';
+  # Log finish time
+  AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+EndIf;
+
+
+### End Epilog ###
+#endregion

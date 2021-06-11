@@ -1,0 +1,49 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Server.LogFile.Delete",
+	"Code@Code.link":"Bedrock.Server.LogFile.Delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pLogDir",
+			"Prompt":"Log file directory. (Blank = from TM1 configuration file)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pLogDays",
+			"Prompt":"The number of days to retain log Files",
+			"Value":7,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pErrorDays",
+			"Prompt":"The number of day to retain TM1 Error Logs",
+			"Value":21,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pBedrockDays",
+			"Prompt":"The number of days to retain Bedrock Debug Files",
+			"Value":7,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pCSVDays",
+			"Prompt":"The number of days to retain CSV files",
+			"Value":7,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

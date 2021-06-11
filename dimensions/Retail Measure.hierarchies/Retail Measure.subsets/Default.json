@@ -1,0 +1,13 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Sales Amount')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')/Hierarchies('Retail Measure')/Elements('Total Product Cost')"
+		}
+	]
+}

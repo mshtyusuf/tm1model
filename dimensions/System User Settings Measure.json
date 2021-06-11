@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"System User Settings Measure",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('System User Settings Measure')/Hierarchies('System User Settings Measure')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"System User Settings Measure.hierarchies/System User Settings Measure.json"
+	]
+}

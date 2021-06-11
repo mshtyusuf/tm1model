@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Security.Group.Delete",
+	"Code@Code.link":"Bedrock.Security.Group.Delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pGroups",
+			"Prompt":"Groups separated by delimiter",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter character",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Server.WriteToMessageLog",
+	"Code@Code.link":"Bedrock.Server.WriteToMessageLog.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode (String)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pType",
+			"Prompt":"pType (String) INFO, DEBUG or ERROR",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pMessage",
+			"Prompt":"pMessage (String)",
+			"Value":"",
+			"Type":"String"
+		}
+	],
+	"Variables":[]
+}

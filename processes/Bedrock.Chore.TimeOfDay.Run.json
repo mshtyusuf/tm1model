@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Chore.TimeOfDay.Run",
+	"Code@Code.link":"Bedrock.Chore.TimeOfDay.Run.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pStartTime",
+			"Prompt":"Time to start running chore from in 24 hr time (at start of hour)",
+			"Value":7,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pEndTime",
+			"Prompt":"Time to finish chore being able to start in 24 hr time (at end of hour)",
+			"Value":22,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"May",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Day')/Hierarchies('Day')/Elements('May')"
+		}
+	]
+}

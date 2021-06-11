@@ -1,0 +1,3938 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Day",
+	"Elements":
+	[
+		{
+			"Name":"Total Year",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Apr",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Apr 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Apr 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Aug 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Aug 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dec 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Dec 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Feb 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jan 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jan 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jul 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jun 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mar 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Mar 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"May 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"May 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Nov 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Nov 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 31",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oct 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sep 1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 10",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 11",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 12",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 13",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 14",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 15",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 16",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 17",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 18",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 19",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 20",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 21",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 22",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 23",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 24",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 25",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 26",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 27",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 28",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 29",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 30",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 5",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 6",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 7",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 8",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sep 9",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Jul YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Aug YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Sep YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Oct YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Nov YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Dec YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jan YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Feb YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Mar YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Apr YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"May YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Jun YTD",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Qtr 1",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Qtr 2",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Qtr 3",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Qtr 4",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Year",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr",
+			"ComponentName":"Apr 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug",
+			"ComponentName":"Aug 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec",
+			"ComponentName":"Dec 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb",
+			"ComponentName":"Feb 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan",
+			"ComponentName":"Jan 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul",
+			"ComponentName":"Jul 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun",
+			"ComponentName":"Jun 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar",
+			"ComponentName":"Mar 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"May",
+			"ComponentName":"May 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov",
+			"ComponentName":"Nov 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 31",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct",
+			"ComponentName":"Oct 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 1",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 10",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 11",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 12",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 13",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 14",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 15",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 16",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 17",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 18",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 19",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 2",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 20",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 21",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 22",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 23",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 24",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 25",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 26",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 27",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 28",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 29",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 3",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 30",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 4",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 5",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 6",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 7",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 8",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep",
+			"ComponentName":"Sep 9",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jul YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Aug YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Sep YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Oct YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Nov YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Dec YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jan YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Feb YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Mar YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Apr YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"May YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"May",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Jun YTD",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 1",
+			"ComponentName":"Aug",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 1",
+			"ComponentName":"Jul",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 1",
+			"ComponentName":"Sep",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 2",
+			"ComponentName":"Dec",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 2",
+			"ComponentName":"Nov",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 2",
+			"ComponentName":"Oct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 3",
+			"ComponentName":"Feb",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 3",
+			"ComponentName":"Jan",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 3",
+			"ComponentName":"Mar",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 4",
+			"ComponentName":"Apr",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 4",
+			"ComponentName":"Jun",
+			"Weight":1
+		},
+		{
+			"ParentName":"Qtr 4",
+			"ComponentName":"May",
+			"Weight":1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Day.subsets/Apr.json",
+		"Day.subsets/Aug.json",
+		"Day.subsets/Mar.json",
+		"Day.subsets/March.json",
+		"Day.subsets/May.json"
+	]
+}

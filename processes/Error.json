@@ -1,0 +1,23 @@
+{
+	"@type":"Process",
+	"Name":"Error",
+	"Code@Code.link":"Error.ti",
+	"DataSource":
+	{
+		"Type":"TM1DimensionSubset",
+		"dataSourceNameForClient":"Account",
+		"dataSourceNameForServer":"Account",
+		"subset":"All"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"Account",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

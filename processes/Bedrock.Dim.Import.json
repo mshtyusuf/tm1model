@@ -1,0 +1,37 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Import",
+	"Code@Code.link":"Bedrock.Dim.Import.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Required: Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceDir",
+			"Prompt":"Optional: Source Path (defaults to Error File Directory)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceFile",
+			"Prompt":"Optional: Source File Name (defaults to Dimension_Export.csv if blank)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

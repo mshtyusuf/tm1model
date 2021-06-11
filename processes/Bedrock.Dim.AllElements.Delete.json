@@ -1,0 +1,25 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.AllElements.Delete",
+	"Code@Code.link":"Bedrock.Dim.AllElements.Delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension to delete all elements",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

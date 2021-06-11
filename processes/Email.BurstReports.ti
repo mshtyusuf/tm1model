@@ -1,0 +1,44 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+DatasourceASCIIQuoteCharacter = '';
+DatasourceASCIIDelimiter = '|';
+
+sFileName = 'C:\TM1\Tools\PLReport.txt';
+
+nCount = ELCOMPN('Region', 'Total Europe');
+n = 1;
+WHILE (n < nCount);
+  sEl = ATTRS('Region', ELCOMP('Region', 'Total Europe', n), 'Description');
+  TextOutput(sFileName, 'id:>' | sEl);
+  TextOutput(sFileName, 'To:>' | ATTRS('Region', sEl, 'Manager Email'));
+  TextOutput(sFileName, 'Subject:>' | sEl | ' Summary - ' | pYear | ' ' | pMonth);
+  TextOutput(sFileName, 'Include:>' | sEl | '.txt');
+  TextOutput(sFileName, 'Region:>' | sEl);
+  TextOutput(sFileName, 'Year:>' | pYear);
+  TextOutput(sFileName, 'Month:>' | pMonth);
+  TextOutput(sFileName, '.');
+  ExecuteProcess('Email.BurstData', 'pRegion', sEl, 'pYear', pYear, 'pMonth', pMonth);
+  n = n + 1;
+END;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+ExecuteCommand('"C:\TM1\Tools\convey.exe" input="C:\TM1\Tools\PLReport.txt"', 1);
+#endregion

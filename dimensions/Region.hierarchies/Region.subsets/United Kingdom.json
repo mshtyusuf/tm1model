@@ -1,0 +1,22 @@
+{
+	"@type":"Subset",
+	"Name":"United Kingdom",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('3')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('4')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('5')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('6')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('7')"
+		}
+	]
+}

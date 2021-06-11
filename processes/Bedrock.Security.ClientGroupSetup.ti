@@ -1,0 +1,58 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#####################################################################################
+##~~Copyright bedrocktm1.org 2011 www.bedrocktm1.org/how-to-licence.php Ver 3.0.2~~##
+#####################################################################################
+
+# This process will create a client with full setup
+
+
+### Call processes to add clients and assign client to groups ###
+
+ExecuteProcess( 'Bedrock.Security.Client.Create',
+  'pClients', pClients,
+  'pPassword', pPassword,
+  'pMaxPorts', pMaxPorts,
+  'pDelimiter', pDelimiter,
+  'pDebug', pDebug
+);
+
+ExecuteProcess( 'Bedrock.Security.Client.Group.Assign',
+  'pAddOrRemove', 'Add',
+  'pClients', pClients,
+  'pDelimiter', pDelimiter,
+  'pGroups', pGroups,
+  'pSecurityRefresh', 'No',
+  'pDebug', pDebug
+);
+
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion

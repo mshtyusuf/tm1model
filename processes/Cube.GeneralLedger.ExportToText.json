@@ -1,0 +1,11 @@
+{
+	"@type":"Process",
+	"Name":"Cube.GeneralLedger.ExportToText",
+	"Code@Code.link":"Cube.GeneralLedger.ExportToText.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

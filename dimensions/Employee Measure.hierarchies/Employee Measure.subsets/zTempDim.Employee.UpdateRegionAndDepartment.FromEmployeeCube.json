@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zTempDim.Employee.UpdateRegionAndDepartment.FromEmployeeCube",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Full Time Base Salary')"
+		}
+	]
+}

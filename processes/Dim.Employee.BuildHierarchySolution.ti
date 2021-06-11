@@ -1,0 +1,84 @@
+#region Prolog
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+cDimSrc = 'Employee';
+cSubsetSrc = 'zTemp' | GetProcessName();
+
+cAttr = 'Department Code';
+cHierarchy = 'Actual 2018 Department';
+cTotalHierarchy = 'Actual 2018 Employees by Dep';
+
+#Create Hierarchy
+If(HierarchyExists(cDimSrc, cHierarchy) = 0);
+  HierarchyCreate(cDimSrc, cHierarchy);
+Else;
+  EXECUTEPROCESS('}bedrock.hier.unwind',
+    'pLogOutput', 0,
+    'pDim', cDimSrc,
+    'pHier', cHierarchy,
+    'pConsol', '*',
+    'pRecursive', 1,
+    'pDelim', '&'
+    );
+EndIf;
+
+#Add Total
+HierarchyElementInsert(cDimSrc, cHierarchy, '', cTotalHierarchy, 'C');
+
+#Create Subset Source
+EXECUTEPROCESS('}bedrock.hier.sub.create.leaf',
+  'pLogOutput', 0,
+  'pDim', cDimSrc,
+  'pHier', '',
+  'pSub', cSubsetSrc,
+  'pAddToSubset', 0,
+  'pExclusions', '',
+  'pDelim', '&',
+  'pAlias', '',
+  'pTemp', 1
+  );
+
+DataSourceType = 'SUBSET';
+DataSourceNameForServer = cDimSrc;
+DatasourceDimensionSubset = cSubsetSrc;
+
+#Create Alias for Hierarchy
+cAlias = 'Employee and Department Name';
+AttrInsert(cDimSrc | ':' | cHierarchy, '', cAlias, 'A');
+#endregion
+#region Metadata
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+vConsolidation = AttrS(cDimSrc, vEmployee, cAttr);
+
+HierarchyElementInsert(cDimSrc, cHierarchy, '', vEmployee, 'N');
+
+HierarchyElementInsert(cDimSrc, cHierarchy, '', vConsolidation, 'C');
+
+HierarchyElementComponentAdd(cDimSrc, cHierarchy, vConsolidation, vEmployee, 1);
+
+HierarchyElementComponentAdd(cDimSrc, cHierarchy, cTotalHierarchy, vConsolidation, 1);
+#endregion
+#region Data
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+vDepartment = AttrS(cDimSrc, vEmployee, 'Department Code');
+
+vDepartmentAlias = AttrS('Department', vDepartment, 'Product Category') | '-A18';
+
+vEmployeeAlias = AttrS(cDimSrc, vEmployee, 'Full Name');
+
+AttrPutS(vDepartmentAlias, cDimSrc | ':' | cHierarchy, vDepartment, cAlias);
+
+AttrPutS(vEmployeeAlias, cDimSrc | ':' | cHierarchy, vEmployee, cAlias);
+
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion

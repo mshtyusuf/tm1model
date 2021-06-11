@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Profit",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('40')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('400')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('60')"
+		}
+	]
+}

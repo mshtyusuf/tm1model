@@ -1,0 +1,57 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+bRegion=0;
+bDept=0;
+
+pDept=ATTRS('Department',pDept,'Description');
+pRegion=ATTRS('Region',pRegion,'Description');
+
+#Current department and region
+sCurrentRegion=ATTRS('Employee',pID,'Region');
+sCurrentDept=ATTRS('Employee',pID,'Department Name');
+
+#update department
+IF(pDept @<> sCurrentDept & pDept@<>'');
+   ATTRPUTS(pDept,'Employee',pID,'Department Name');
+   sTargetDept=pDept;   
+   bDept=1;
+ENDIF;
+
+#update region
+IF(pRegion @<> sCurrentRegion & pRegion@<>'');
+   ATTRPUTS(pRegion,'Employee',pID,'Region');
+   sTargetRegion=pRegion;
+   bRegion=1;
+ENDIF;
+
+IF(bRegion=1 % bDept=1);
+ ExecuteProcess('Cube.Employee.MoveData',
+'pID',pID,
+'pDeptSrc',sCurrentDept,
+'pRegionSrc',sCurrentRegion,
+'pDeptTgt',pDept,
+'pRegionTgt', pRegion,
+'pYear', pYear);
+
+ENDIF;
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

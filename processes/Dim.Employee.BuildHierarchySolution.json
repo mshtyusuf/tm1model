@@ -1,0 +1,23 @@
+{
+	"@type":"Process",
+	"Name":"Dim.Employee.BuildHierarchySolution",
+	"Code@Code.link":"Dim.Employee.BuildHierarchySolution.ti",
+	"DataSource":
+	{
+		"Type":"TM1DimensionSubset",
+		"dataSourceNameForClient":"Employee",
+		"dataSourceNameForServer":"Employee",
+		"subset":"Default"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vEmployee",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

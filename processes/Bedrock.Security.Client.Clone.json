@@ -1,0 +1,43 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Security.Client.Clone",
+	"Code@Code.link":"Bedrock.Security.Client.Clone.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceClient",
+			"Prompt":"Source Client",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetClient",
+			"Prompt":"List of Target Clients Separated by Delimiter",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pMode",
+			"Prompt":"Mode REPLACE or ADD (default = REPLACE)",
+			"Value":"REPLACE",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter (if a list of target users)",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

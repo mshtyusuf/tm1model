@@ -1,0 +1,54 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+DatasourceASCIIQuoteCharacter = '';
+DatasourceASCIIDelimiter = Char(9);
+
+sFileName = 'C:\TM1\Tools\' | pRegion | '.txt';
+sCubeName = 'General Ledger';
+sViewName = '}Export';
+sFilter = 'Year: ' | pYear | ' & Period: ' | pMonth | ' & Version: Actual';
+sFilter = sFilter | ' & Region: ' | pRegion;
+sFilter = sFilter | ' & Department: Executive General and Administration + Inventory Management + Manufacturing + Quality Assurance + Research and Development + Sales and Marketing';
+sFilter = sFilter | ' & Account: Operating Profit & Currency: Local & General Ledger Measure: Amount';
+
+ExecuteProcess('Bedrock.Cube.View.Create', 'pCube', sCubeName, 'pView', sViewName, 'pFilter', sFilter, 'pSuppressConsol', 0, 'pSuppressRules', 0);
+
+
+DataSourceType = 'VIEW';
+DatasourceNameForServer = sCubeName;
+DatasourceNameForClient = sCubeName;
+DatasourceCubeView = sViewName;
+
+i = 1;
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+If( i = 1);
+  TEXTOUTPUT(sFileName, 'Items ->');
+EndIf;
+
+sOperatingExpenses = NumberToString(CellGetN(sCubeName, vVersion, vYear, vPeriod, vCurrency, vRegion, vDepartment, 'Operating Expenses', 'Amount'));
+sTotalCostofSales = NumberToString(CellGetN(sCubeName, vVersion, vYear, vPeriod, vCurrency, vRegion, vDepartment, 'Total Cost of Sales', 'Amount'));
+sNetSales = NumberToString(CellGetN(sCubeName, vVersion, vYear, vPeriod, vCurrency, vRegion, vDepartment, 'Net Sales', 'Amount'));
+sGrossMargin = NumberToString(CellGetN(sCubeName, vVersion, vYear, vPeriod, vCurrency, vRegion, vDepartment, 'Gross Margin', 'Amount'));
+
+TEXTOUTPUT(sFileName, ATTRS('Department', vDepartment, 'Description'), sOperatingExpenses, sTotalCostofSales, sNetSales, sGrossMargin, NumberToString(Value));
+
+i = i + 1;
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion

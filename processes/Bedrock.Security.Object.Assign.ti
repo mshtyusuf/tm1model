@@ -1,0 +1,85 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will assign security to specified object
+
+# Note:
+# - Before using this process, you must first initialise object security.
+# - For Applications, in Server Explorer go to Applications -> Security Assignments and assign
+#   an access security for an Application. For other object types follow a similar process but for that object type
+# - Then from the Server Explorer go to your ServerName -> Security -> Refresh Security
+# - Multiple groups can be specified separated by delimiter
+# - Multiple objects can be specified separated by delimiter
+# - If groups and/or objects that don't exist are specified, then they will be skipped but
+#   valid groups and ojects will still be processed
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Security.Object.Assign';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+cSecurityCube = '}' | pObjectType | 'Security';
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pGroups          : ' | pGroups );
+  AsciiOutput( sDebugFile, '            pObjectType      : ' | pObjectType );
+  AsciiOutput( sDebugFile, '            pObjects         : ' | pObjects );
+  AsciiOutput( sDebugFile, '            pSecurityLevel   : ' | pSecurityLevel );
+  AsciiOutput( sDebugFile, '            pSecurityRefresh : ' | pSecurityRefresh );
+  AsciiOutput( sDebugFile, '            pDelimiter       : ' | pDelimiter );
+
+EndIf;
+
+
+EXECUTEPROCESS('}bedrock.security.object.assign',
+  'pLogOutput', pDebug,
+  'pGroup', pGroups,
+  'pObjectType', pObjectType,
+  'pObject', pObjects,
+  'pSecurityLevel', pSecurityLevel,
+  'pSecurityRefresh', pSecurityRefresh,
+  'pDelim', pDelimiter
+  );
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+#endregion

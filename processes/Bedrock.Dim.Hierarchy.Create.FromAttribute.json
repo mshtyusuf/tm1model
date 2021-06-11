@@ -1,0 +1,87 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Hierarchy.Create.FromAttribute",
+	"Code@Code.link":"Bedrock.Dim.Hierarchy.Create.FromAttribute.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForClient":"}ElementAttributes_}Clients",
+		"dataSourceNameForServer":"}ElementAttributes_}Clients",
+		"view":"Temp"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension",
+			"Value":"Cost Centre",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttribute",
+			"Prompt":"Attribute",
+			"Value":"Finance",
+			"Type":"String"
+		},
+		{
+			"Name":"pTopNode",
+			"Prompt":"Optional: The name of the consolidation top element",
+			"Value":"Total Finance",
+			"Type":"String"
+		},
+		{
+			"Name":"pPrefix",
+			"Prompt":"Optional: Prefix before the attribute value",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSuffix",
+			"Prompt":"Optional: Suffix after the attribute value",
+			"Value":"( Finance )",
+			"Type":"String"
+		},
+		{
+			"Name":"pUnwind",
+			"Prompt":"Boolean: 1 = True unwind current hierarchy.",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pEmptyConsol",
+			"Prompt":"Optional: 1 = Remove empty consoldation from dimension.",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"pDebug",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vElement",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vAttribute",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vValue",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

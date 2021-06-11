@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"zTempDim.Employee.UpdateAttr.FromEmployeeCube",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Period')/Hierarchies('Period')/Elements('01')"
+		}
+	]
+}

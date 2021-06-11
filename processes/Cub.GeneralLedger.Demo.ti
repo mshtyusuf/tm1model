@@ -1,0 +1,68 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+# 1
+# 2
+# 3
+# 4
+# 5
+
+ExecuteProcess('Cube.Employee.LoadFromFile');
+
+i = 1;
+WHILE( i <= 10000000);
+   i = i + 1;
+END;
+
+ExecuteProcess('Error');
+
+i = 1;
+WHILE( i <= 10000000);
+   i = i + 1;
+END;
+
+ExecuteProcess('Cube.Wholesale.LoadFromFile');
+
+i = 1;
+WHILE( i <= 10000000);
+   i = i + 1;
+END;
+
+ExecuteProcess('Cube.Retail.LoadFromFile');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#endregion

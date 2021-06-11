@@ -1,0 +1,49 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Sub.ExportToFile",
+	"Code@Code.link":"Bedrock.Dim.Sub.ExportToFile.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportPath",
+			"Prompt":"Export File Path",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pExportFile",
+			"Prompt":"Export File Name (Default Extension .csv)",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTitleRecord",
+			"Prompt":"Boolean: 1 = Yes include header row",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

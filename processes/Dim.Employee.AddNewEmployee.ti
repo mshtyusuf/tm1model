@@ -1,0 +1,56 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+DimensionElementInsert('Employee','',pID,'N');
+
+DimensionElementComponentAdd('Employee','All Employees',pID,1);
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+#Add attributes
+
+sDept=ATTRS('Department',pDept,'Description');
+sRegion=ATTRS('Region',pRegion,'Description');
+
+ATTRPUTS(pName,'Employee',pID,'Full Name');
+ATTRPUTS(sDept,'Employee',pID,'Department Name');
+ATTRPUTS(sRegion,'Employee',pID,'Region');
+
+#Add Start and End Dates
+#ATTRPUTS(pStartDate,'Employee',pID,'StartDate');
+CellPutS(pStartDate,'Employee','Budget','2016','Year_Enter','Local',pRegion,pDept,pID,'Start Date');
+CellPutS('2050-12-31','Employee','Budget','2016','Year_Enter','Local',pRegion,pDept,pID,'End Date');
+
+##############################
+#Add data to employee cube
+##############################
+
+#Salary
+CELLPUTN(pSalary,'Employee','Budget','2016','Year_Enter','Local',pRegion,pDept,pID,'Enter Full Time Base Salary');
+
+#Pay Method
+CELLPUTS(pMethod,'Employee','Budget','2016','Year_Enter','Local',pRegion,pDept,pID,'Pay Method');
+
+#FTE
+#i=1;
+#WHILE(i<=12);
+#   CELLPUTN(1,'Employee','Budget','2016',NumberToString(i),'Local',pRegion,pDept,pID,'FTE');
+#   i=i+1;
+#END;
+#endregion

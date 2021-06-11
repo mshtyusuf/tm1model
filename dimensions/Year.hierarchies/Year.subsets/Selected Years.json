@@ -1,0 +1,28 @@
+{
+	"@type":"Subset",
+	"Name":"Selected Years",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2010')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2011')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2012')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2013')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2014')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2015')"
+		},
+		{
+			"@id":"Dimensions('Year')/Hierarchies('Year')/Elements('2016')"
+		}
+	]
+}

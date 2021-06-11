@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Security.Cube.CellSecurity.Create",
+	"Code@Code.link":"Bedrock.Security.Cube.CellSecurity.Create.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pCube",
+			"Prompt":"Cube to create cell security for",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDimensions",
+			"Prompt":"Map of dimensions to include in cell security as a array of 1:0 colon delimited e.g. \"1:0:0:1:0\"",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

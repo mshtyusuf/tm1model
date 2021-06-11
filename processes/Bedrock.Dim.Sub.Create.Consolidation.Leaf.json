@@ -1,0 +1,61 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Sub.Create.Consolidation.Leaf",
+	"Code@Code.link":"Bedrock.Dim.Sub.Create.Consolidation.Leaf.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"Subset Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pConsol",
+			"Prompt":"Consolidated Element",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAddToSubset",
+			"Prompt":"Add to an existing Subset (Boolean: 1=True)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pExclusions",
+			"Prompt":"Excluded Elements",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter",
+			"Value":"&",
+			"Type":"String"
+		},
+		{
+			"Name":"pAlias",
+			"Prompt":"Assign an Alias to the Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

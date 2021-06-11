@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Finance Analytics",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('400')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('4100')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('5000')"
+		}
+	]
+}

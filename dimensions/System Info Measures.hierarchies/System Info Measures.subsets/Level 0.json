@@ -1,0 +1,16 @@
+{
+	"@type":"Subset",
+	"Name":"Level 0",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('System Info Measures')/Hierarchies('System Info Measures')/Elements('String')"
+		},
+		{
+			"@id":"Dimensions('System Info Measures')/Hierarchies('System Info Measures')/Elements('Numeric')"
+		},
+		{
+			"@id":"Dimensions('System Info Measures')/Hierarchies('System Info Measures')/Elements('Comment')"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('1')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('13')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('3')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('4')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('5')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('6')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('7')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('8')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('11')"
+		},
+		{
+			"@id":"Dimensions('Region')/Hierarchies('Region')/Elements('12')"
+		}
+	]
+}

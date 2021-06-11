@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"Default",
+	"Expression":"{EXCEPT({TM1SUBSETALL([Year].[Year])},{[Year].[Year].[Select]})}"
+}

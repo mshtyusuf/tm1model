@@ -1,0 +1,84 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Copyright bedrocktm1.org 2013 www.bedrocktm1.org/how-to-licence.php Ver 3.1.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+# This process will create a copy of subset
+##Global Variables
+StringGlobalVariable('sProcessReturnCode');
+NumericGlobalVariable('nProcessReturnCode');
+nProcessReturnCode= 0;
+
+### Constants ###
+cThisProcName   = GetProcessName();
+cUserName       = TM1User();
+cMsgErrorContent= 'User:%cUserName% Process:%cThisProcName% ErrorMsg:%sMessage%';
+cTimeStamp      = TimSt( Now, '\Y\m\d\h\i\s' );
+cRandomInt      = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile      = GetProcessErrorFileDirectory | cThisProcName | '.' | cTimeStamp | '.' | cRandomInt ;
+
+### Initialise Debug ###
+If( pDebug >= 1 );
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDimension       : ' | pDimension );
+  AsciiOutput( sDebugFile, '            pTargetDim         : ' | pTargetDim );
+  AsciiOutput( sDebugFile, '            pSourceSub          : ' | pSourceSub );
+  AsciiOutput( sDebugFile, '            pTargetSub         : ' | pTargetSub );
+EndIf;
+
+nRet = EXECUTEPROCESS('}bedrock.hier.sub.clone',
+  'pLogOutput', pDebug,
+  'pSrcDim', pDimension,
+  'pSrcHier', '',
+  'pSrcSub', pSourceSub,
+  'pTgtDim', pTargetDim,
+  'pTgtHier', ' ',
+  'pTgtSub', pTargetSub,
+  'pTemp', 0
+  );
+  
+IF(nRet <> 0);
+    sMessage = 'the process incurred at least 1 major error and consequently aborted. Please see above lines in this file for more details.';
+    nProcessReturnCode = 0;
+    LogOutput( 'ERROR', Expand( cMsgErrorContent ) );
+    sProcessReturnCode = Expand( '%sProcessReturnCode% Process:%cThisProcName% aborted. Check tm1server.log for details.' );
+    ProcessError;
+EndIf;
+
+
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#endregion

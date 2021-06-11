@@ -1,0 +1,31 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Cube.Rule.Unload",
+	"Code@Code.link":"Bedrock.Cube.Rule.Unload.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceCube",
+			"Prompt":"Unload rule from this cube.",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pRuleName",
+			"Prompt":"Optional: The name of the temporary rule file.",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

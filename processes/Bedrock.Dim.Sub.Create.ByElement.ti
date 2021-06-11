@@ -1,0 +1,72 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+# This process will create a static subset based on a list of supplied elements
+
+
+### Constants ###
+
+cProcess = 'Bedrock.Dim.Sub.Create.ByElement';
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+sRandomInt = NumberToString( INT( RAND( ) * 1000 ));
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.' | sRandomInt ;
+
+
+### Initialise Debug ###
+## Set debug file name
+ sDebugFile = cDebugFile | 'Prolog.debug';
+
+If( pDebug >= 1 );
+
+  ## Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  ## Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pDimension   : ' | pDimension );
+  AsciiOutput( sDebugFile, '            pSubset      : ' | pSubset );
+  AsciiOutput( sDebugFile, '            pElements    : ' | pElements );
+  AsciiOutput( sDebugFile, '            pDelimiter   : ' | pDelimiter );
+
+EndIf;
+
+EXECUTEPROCESS('}bedrock.hier.sub.create.byelement',
+  'pDim', pDimension,
+  'pHier', '',
+  'pSub', pSubset,
+  'pEle', pElements,
+  'pDelim', pDelimiter,
+  'pAddToSubset', pAddToSubset,
+  'pAlias', pAlias,
+  'pTemp', 0
+  );
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+#endregion

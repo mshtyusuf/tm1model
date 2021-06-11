@@ -1,0 +1,25 @@
+{
+	"@type":"Subset",
+	"Name":"Category2",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('2')"
+		},
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('3')"
+		},
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('4')"
+		},
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('5')"
+		},
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('6')"
+		},
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('7')"
+		}
+	]
+}

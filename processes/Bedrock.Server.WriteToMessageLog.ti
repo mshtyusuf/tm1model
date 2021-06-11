@@ -1,0 +1,96 @@
+#region Prolog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+
+################################################################################################# 
+##~~Copyright bedrocktm1.org 2017 www.bedrocktm1.org/how-to-licence.php Ver 3.1.0~~##
+################################################################################################# 
+
+
+# This process will write a Message into the TM1 MessageLog. 
+#This Process was changed into shell, that will call another process from Bedrock v4.
+
+### Constants ###
+
+cProcess = 'WriteToMessageLog' ;
+cTimeStamp = TimSt( Now, '\Y\m\d\h\i\s' );
+cDebugFile = GetProcessErrorFileDirectory | cProcess | '.' | cTimeStamp | '.';
+cLF = Char ( 10 );
+
+### Validate Parameters ###
+
+nErr = 0;
+sErr = '';
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Prolog.debug';
+
+  # Log start time
+  AsciiOutput( sDebugFile, 'Process Started: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+  # Log parameters
+  AsciiOutput( sDebugFile, 'Parameters: pType : ' | pType );
+  AsciiOutput( sDebugFile, '            pMessage : ' | pMessage );
+EndIf;
+
+
+  EXECUTEPROCESS('}bedrock.server.writetomessagelog',
+  'pLevel', pType,
+  'pMessage', pMessage
+  );
+
+
+
+### End Prolog ###
+#endregion
+#region Metadata
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Data
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+#endregion
+#region Epilog
+
+#****Begin: Generated Statements***
+#****End: Generated Statements****
+
+################################################################################################# 
+##~~Join the bedrock TM1 community on GitHub https://github.com/cubewise-code/bedrock Ver 4.0~~##
+################################################################################################# 
+
+
+### Initialise Debug ###
+
+If( pDebug >= 1 );
+
+  # Set debug file name
+  sDebugFile = cDebugFile | 'Epilog.debug';
+
+  # Log errors
+  If( nErr <> 0 );
+    AsciiOutput( sDebugFile, 'Errors Occurred' );
+  EndIf;
+
+  # Log finish time
+  AsciiOutput( sDebugFile, 'Process Finished: ' | TimSt( Now, '\d-\m-\Y \h:\i:\s' ) );
+
+EndIf;
+
+
+If( nErr <> 0 );
+  ItemReject( sErr );
+EndIf;
+
+
+### End Epilog ###
+#endregion

@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"System User Settings Parameter",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('System User Settings Parameter')/Hierarchies('System User Settings Parameter')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"System User Settings Parameter.hierarchies/System User Settings Parameter.json"
+	]
+}

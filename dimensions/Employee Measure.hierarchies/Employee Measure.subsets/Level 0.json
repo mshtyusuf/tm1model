@@ -1,0 +1,49 @@
+{
+	"@type":"Subset",
+	"Name":"Level 0",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Enter Full Time Base Salary')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Pay Method')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Full Time Base Salary')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Full Time Base Salary % Version')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Full Time Base Salary % Department')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Full Time Base Salary % Region')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('FTE')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Start Date')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('End Date')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Base Salary')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Annual Leave Provision')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Long Service Leave Provision')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Superannuation')"
+		},
+		{
+			"@id":"Dimensions('Employee Measure')/Hierarchies('Employee Measure')/Elements('Worker Compensation')"
+		}
+	]
+}

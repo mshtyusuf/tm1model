@@ -1,0 +1,19 @@
+{
+	"@type":"Subset",
+	"Name":"dashboard",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('40')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('400')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('60')"
+		},
+		{
+			"@id":"Dimensions('Account')/Hierarchies('Account')/Elements('80')"
+		}
+	]
+}

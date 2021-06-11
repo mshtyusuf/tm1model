@@ -1,0 +1,47 @@
+{
+	"@type":"Process",
+	"Name":"Cube.Employee.LoadFromODBC",
+	"Code@Code.link":"Cube.Employee.LoadFromODBC.ti",
+	"DataSource":
+	{
+		"Type":"ODBC",
+		"dataSourceNameForClient":"AdventureWorksDW",
+		"dataSourceNameForServer":"AdventureWorksDW",
+		"password":"h?H7ezMjio1GmGJaMnIeayX4ekzj;xf<qU2=Hw]dEYs0leaLrCxov6;Z0sCGw9uBJIC}cYum`XWo_Q3RF`zfU0`RqhjDjZKB\\\\74NfHr9Bt:\\wsczeWp?^Wuv]shdXqx1?k[AoXzv3GIEZnIFJ2yy@Dks=W4L^fCqRS[^hlAlbvFn_Av?E:Y0rCD4B<xKzGq`U7:WXvx",
+		"query":"Select DimEmployee.SalesTerritoryKey, DimEmployee.DepartmentName, DimEmployee.EmployeeNationalIDAlternateKey, DimEmployee.BaseRate\r\nFrom DimEmployee\r\nORDER BY DimEmployee.DepartmentName,DimEmployee.FirstName",
+		"userName":"",
+		"usesUnicode":true
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"vSalesTerritoryKey",
+			"Type":"Numeric",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vDepartmentName",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vEmployeeKey",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"vBaseRate",
+			"Type":"Numeric",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

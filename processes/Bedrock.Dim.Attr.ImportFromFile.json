@@ -1,0 +1,55 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.Attr.ImportFromFile",
+	"Code@Code.link":"Bedrock.Dim.Attr.ImportFromFile.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Target Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceDir",
+			"Prompt":"File Directory",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSourceFile",
+			"Prompt":"File Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTitleRows",
+			"Prompt":"Number of Title Rows to Skip",
+			"Value":1,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDelimiter",
+			"Prompt":"Delimiter Character (default=Comma)",
+			"Value":",",
+			"Type":"String"
+		},
+		{
+			"Name":"pQuote",
+			"Prompt":"Quote Character (default=Double Quote)",
+			"Value":"'",
+			"Type":"String"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":[]
+}

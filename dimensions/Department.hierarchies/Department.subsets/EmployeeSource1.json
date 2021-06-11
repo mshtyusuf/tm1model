@@ -1,0 +1,10 @@
+{
+	"@type":"Subset",
+	"Name":"EmployeeSource1",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Department')/Hierarchies('Department')/Elements('4')"
+		}
+	]
+}

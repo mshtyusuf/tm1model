@@ -1,0 +1,55 @@
+{
+	"@type":"Process",
+	"Name":"Bedrock.Dim.CloneFromSubset.Flat",
+	"Code@Code.link":"Bedrock.Dim.CloneFromSubset.Flat.ti",
+	"DataSource":
+	{
+		"Type":"TM1DimensionSubset",
+		"dataSourceNameForClient":"}Cubes",
+		"dataSourceNameForServer":"}Cubes",
+		"subset":"All"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pSourceDim",
+			"Prompt":"Source Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"Source Subset",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pTargetDim",
+			"Prompt":"Target Dimension",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pAttr",
+			"Prompt":"Include Attributes? (Boolean 1=True)",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"pDebug",
+			"Prompt":"Debug Mode",
+			"Value":0,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"vElement",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

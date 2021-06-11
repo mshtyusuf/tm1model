@@ -1,0 +1,39 @@
+{
+	"@type":"Cube",
+	"Name":"Retail",
+	"Rules@Code.link":"Retail.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Year')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		},
+		{
+			"@id":"Dimensions('Currency')"
+		},
+		{
+			"@id":"Dimensions('Region')"
+		},
+		{
+			"@id":"Dimensions('Product')"
+		},
+		{
+			"@id":"Dimensions('Retail Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Retail.views/All.json",
+		"Retail.views/By Year and Month.json",
+		"Retail.views/Default.json",
+		"Retail.views/Products By Year.json",
+		"Retail.views/Sales Amount Upload.json",
+		"Retail.views/Cube Model Example.json",
+		"Retail.views/Price and Cost Preview.json"
+	]
+}
