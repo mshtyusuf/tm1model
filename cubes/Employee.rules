@@ -20,8 +20,9 @@ DB('Employee',!Version,!Year,'Year_Enter','Local',!Region,!Department,!Employee,
 );
 
 #===========
-#Calculate %
+# Calculate %
 
+# Need to revise the % spread
 ['Full Time Base Salary % Department'] = ['Full Time Base Salary'] \ ['Full Time Base Salary', 'Corporate'];
 
 ['Full Time Base Salary % Region'] = ['Full Time Base Salary'] \ ['Full Time Base Salary', 'Total Europe'];
@@ -32,7 +33,9 @@ DB('Employee',!Version,!Year,'Year_Enter','Local',!Region,!Department,!Employee,
 # Actual is loaded
 #['Local', 'Actual']= N: STET;
 
-#------------Payroll Tax---------------------------------------------------
+
+
+#------------ Tax Payroll---------------------------------------------------
 # Calculated in the General Ledger
 #------------Super----------------------------------------------------
 ['Superannuation', 'Local']= N:
