@@ -1,7 +1,6 @@
 {
 	"@type":"Cube",
-	"Name":"Employee",
-	"Rules@Code.link":"Employee.rules",
+	"Name":"Employee copy",
 	"Dimensions":
 	[
 		{
@@ -31,17 +30,8 @@
 	],
 	"Views@Code.links":
 	[
-		"Employee.views/Bedrock_792.json",
-		"Employee.views/CopyFrom.json",
-		"Employee.views/CopyTo.json",
-		"Employee.views/Default.json",
-		"Employee.views/Example.json",
-		"Employee.views/Example2.json",
-		"Employee.views/Example3.json",
-		"Employee.views/Example4.json",
-		"Employee.views/Example5.json",
-		"Employee.views/Example6.json",
-		"Employee.views/Executive and Administration.json",
-		"Employee.views/Jan.FTE.Test.json"
+		
+		"Employee copy.views/Default.json"
+		
 	]
 }
