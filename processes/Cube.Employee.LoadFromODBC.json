@@ -7,7 +7,7 @@
 		"Type":"ODBC",
 		"dataSourceNameForClient":"AdventureWorksDW",
 		"dataSourceNameForServer":"AdventureWorksDW",
-		"password":"h?H7ezMjio1GmGJaMnIeayX4ekzj;xf<qU2=Hw]dEYs0leaLrCxov6;Z0sCGw9uBJIC}cYum`XWo_Q3RF`zfU0`RqhjDjZKB\\\\74NfHr9Bt:\\wsczeWp?^Wuv]shdXqx1?k[AoXzv3GIEZnIFJ2yy@Dks=W4L^fCqRS[^hlAlbvFn_Av?E:Y0rCD4B<xKzGq`U7:WXvx",
+		"password":"eIY8Ui73mQZerR=yeu9>kx6FXcYeWXN\\DG;gXubnyj>5WdQX8JLwtAl;YgQp8RyRB<uv3S:[[0OdNIvQ=\\s6X\\QJ>Oi4hktTK@YWFvZPXHhn7n~3_GYV<mhe;r@EBnM2mySOkB9g9<a;[ei4\\Js2U7N45Y;IEe8YzIWovZsUa5H]fOxt9>M1[Xb7tjIzlwWyPvzEQD^z",
 		"query":"Select DimEmployee.SalesTerritoryKey, DimEmployee.DepartmentName, DimEmployee.EmployeeNationalIDAlternateKey, DimEmployee.BaseRate\r\nFrom DimEmployee\r\nORDER BY DimEmployee.DepartmentName,DimEmployee.FirstName",
 		"userName":"",
 		"usesUnicode":true

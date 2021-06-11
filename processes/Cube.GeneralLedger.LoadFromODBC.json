@@ -7,7 +7,7 @@
 		"Type":"ODBC",
 		"dataSourceNameForClient":"AdventureWorksDW",
 		"dataSourceNameForServer":"AdventureWorksDW 64",
-		"password":"h?H7ezMjao1GmGJaMnIeayX4ekzj;xf<qU2=Hw]dEYs0luaLrCxov6;Z0sCGw95IJIC=oYum`XWo_Q3RF`zfU0`RqhjBjZKB\\\\74NfHr9Bt:\\wchzeWp?^Wuv]shdXqx1?k[AoXzv3GIEZnIFJ2yy@Dks=W4L^fCqRS[^hlAlbvF^UAv?E:Y0rCD4B<xKZGqdU7:WXvx",
+		"password":"eIY8Ua73mQZerR=yeu9>kx6FXcYeWXN\\DG;gXubnyj>5Wt\\X8JLwtAl;YgQp8RIZB<uV8S:[[0OdNIvQ=\\s6X\\QJ>OY;hktTK@YWFvZPXHhn7n>=_GYV<mhe;r@EBnM2mySOkB9g9<a;[ei4\\Js2U7N45Y;IEe8YzIWovZsUa5H]FIxt9>M1[Xb7tjIzlWWi]vzEQD^z",
 		"query":"SELECT CAST(ScenarioKey as TEXT) ScenarioKey,\r\n\tSUBSTR(DateKey, 1, 4) Yr,\r\n\tSUBSTR(DateKey, 5, 2) Mth,\r\n\tCAST(OrganizationKey as TEXT) OrganizationKey,\r\n\tCAST(DepartmentGroupKey AS TEXT) DepartmentGroupKey,\r\n\tCAST(AccountCodeAlternateKey as TEXT) AccountKey,\r\n\tSUM(Amount) Amount\r\nFROM FactFinance a\r\n\tINNER JOIN DimAccount b ON a.AccountKey = b.AccountKey\r\nGROUP BY SUBSTR(DateKey, 1, 4),\r\n\tSUBSTR(DateKey, 5, 2),\r\n\tOrganizationKey,\r\n\tDepartmentGroupKey,\r\n\tScenarioKey,\r\n\tAccountCodeAlternateKey",
 		"userName":"",
 		"usesUnicode":true
