@@ -1,6 +1,6 @@
 SKIPCHECK;
 FEEDSTRINGS;
-
+## testing Git pull while architect running
 ['Pay Method']=S:IF(ISLEAF=1,CONTINUE,'-');
 
 #['Year_Enter','FTE']=N:['Year','FTE'];
